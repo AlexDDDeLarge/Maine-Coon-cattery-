@@ -1,0 +1,44 @@
+.about-card {
+  position: relative;
+  padding: 25px 54px 25px 25px;
+  border: 0.5px solid #A07B50;
+
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.about-card__small-title {
+  margin: 0;
+}
+
+.about-card__text {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 140%;
+  @media screen and (min-width: 768px) {
+    line-height: 164.285714%;
+  }
+}
+
+.about-card__btn-next {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 46px;
+  height: 100%;
+
+  background-color: #A07B50;
+}
+
+.about-card__ico {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+
+  width: 8px;
+  height: 18px;
+
+  fill: transparent;
+  stroke: #FFFFFF;
+}

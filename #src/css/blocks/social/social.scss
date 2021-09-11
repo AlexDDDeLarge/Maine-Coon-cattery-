@@ -1,0 +1,22 @@
+.social {
+  display: flex;
+}
+
+.social__ico {
+  // fill: #FFFFFF;
+  &_fb {
+    width: 5px;
+    height: 12px;
+  }
+  &_tw {
+    width: 16px;
+    height: 12px;
+  }
+  &_vk {
+    width: 18px;
+    height: 10px;
+  }
+  // &:hover {
+  //   fill: #A07B50;
+  // }
+}

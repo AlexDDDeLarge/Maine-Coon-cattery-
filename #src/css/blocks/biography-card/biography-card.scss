@@ -1,0 +1,155 @@
+.biography-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 88px 11px 16px;
+
+  // 
+  background-color: #1F1C1D;
+
+  text-align: center;
+
+  @media screen and (min-width: 768px) { 
+    align-items: flex-start;
+
+    padding: 93.35px 100.35px 97.35px 100.35px;
+    border: 0.5px solid rgba(160, 123, 80, 0.43);
+    box-shadow: 23.35px 23.35px 1px 1px inset #151313,
+                -23.35px -23.35px 1px 1px inset #151313;
+    
+    text-align: left;
+  }
+  @media screen and (min-width: 1366px) {
+    margin-left: 434px;
+    margin-right: 67px;
+    padding: 92px 137px 95px 124px;
+  }
+}
+
+.biography-card__control-box {
+  position: absolute;
+  top: -63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 60%;
+  @media screen and (min-width: 768px) { 
+    top: 100%;
+    right: 0;
+    transform: translateY(-50%);
+
+    align-items: flex-end;
+
+    width: 49.15254%;
+  }
+  @media screen and (min-width: 1366px) { 
+    top: 0px;
+    right: 0;
+    left: -335px;
+    bottom: 0;
+    transform: translateY(-10%);
+
+    width: 360px;
+  }
+}
+
+.biography-card__btn-control {
+  width: 8px;
+  height: 18px;
+
+  fill: transparent;
+  stroke: #A07B50;
+  @media screen and (min-width: 768px) {
+    width: 12px;
+    height: 30px;
+  }
+  @media screen and (min-width: 1366px) { 
+    position: absolute;
+     top: 195px;
+    left: -109px;
+    
+    display: block;
+  }  
+  &:last-child {
+    left: auto;
+    transform: rotate(180deg);
+
+    @media screen and (min-width: 1366px) { 
+      right: -713px; 
+    }
+    
+  }
+}
+
+.biography-card__img {
+  @media screen and (min-width: 1366px) { 
+    position: absolute;
+    top: 33px;
+    left: 0;
+
+    width: 360px;
+    height: 356px;
+    
+  }
+}
+
+.biography-card__small-title {
+  margin: 0;
+}
+
+.biography-card__lead {
+  margin: 0;
+}
+
+.biography-card__text {
+  margin-bottom: 30px;
+
+  font-weight: 300;
+
+  color: rgba(255, 255, 255, 0.72);
+  @media screen and (min-width: 768px) {
+    font-size: 1.142857em;
+    line-height: 156.25%;
+  }
+  @media screen and (min-width: 1365px) {
+    margin-bottom: 44px;
+  }
+}
+
+.biography-card__social {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  & .social__ico {
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+
+    fill: #FFFFFF;
+    &:hover {
+      fill: #A07B50;
+    }
+    &_fb {
+      @media screen and (min-width: 1365px) {
+        width: 7px;
+        height: 15px;
+      }
+    }
+    &_tw {
+      @media screen and (min-width: 1365px) {
+        width: 20px;
+        height: 14px;
+      }
+    }
+    &_vk {
+      @media screen and (min-width: 1365px) {
+        width: 21px;
+        height: 12px;
+      }
+    }
+  }  
+}

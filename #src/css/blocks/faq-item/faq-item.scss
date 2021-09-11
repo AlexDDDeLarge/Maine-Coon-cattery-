@@ -1,0 +1,151 @@
+.faq-item {
+  position: relative;
+  margin: 30px 15px 30px 140px;
+  @media screen and (min-width: 319px) {
+    margin: 30px 15px 30px;
+  }
+  @media screen and (min-width: 767px) {
+    margin: 30px 55px 30px 160px;
+  }
+  @media screen and (min-width: 1365px) {
+    margin: 30px 15px 37px 140px;
+  }
+  &:last-child {
+    @media screen and (min-width: 319px) { 
+      margin-bottom: 60px;
+    } 
+    @media screen and (min-width: 767px) {
+      margin-bottom: 85px;
+    }
+  }
+}
+ 
+.faq-item__number {
+  position: absolute;
+  top: 0px;
+  left: 80px;
+
+  font-weight: bold;
+  font-size: 3.571em;
+  line-height: 118%;
+
+  color: #A07B50;
+  @media screen and (min-width: 319px) {
+    display: none;
+  }
+  @media screen and (min-width: 767px) {
+    top: 12px;
+    left: -80px;
+    display: block;
+  }
+  @media screen and (min-width: 1365px) {
+    top: 25px;
+    left: -120px;
+
+    font-weight: bold;
+    font-size: 5em;
+    line-height: 117%;
+  }
+}
+
+.faq-item__question {
+  position: relative;
+  display: block;
+
+  width: 100%;
+  border: 0.5px solid #544332;
+
+  font-weight: 500;
+  font-size: 1.142em;
+  line-height: 118.75%;
+  text-align: left;
+  color: #DDD0C3;
+
+  @media screen and (min-width: 319px) {
+    padding: 15px 56px 15px 15px;
+
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 140%;
+  }
+  @media screen and (min-width: 767px) {
+    padding: 30px 69px 33px 26px;
+
+    font-weight: 500;
+    font-size: 1.142em;
+  }
+  @media screen and (min-width: 1365px) { 
+    padding: 47px 43px 44px 43px;
+
+    font-weight: 500;
+    font-size: 1.142em;
+    line-height: 118.75%;
+  }
+}
+
+.faq-item__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+
+  width: 43px;
+  height: 100%;
+  border: 0.5px solid rgba(160, 123, 80, 0.41);;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: #A07B50;  
+  }
+  @media screen and (min-width: 319px) {
+
+  }
+  @media screen and (min-width: 767px) {
+    width: 73px;
+  }
+  @media screen and (min-width: 1365px) { 
+    width: 104px;
+  }
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 16px;
+    height: 2px; 
+
+    background-color: #FFFFFF;
+  }
+  &::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+.faq-item__answear {
+  margin: 0;
+  padding: 15px;
+  border: 0.5px solid #544332;
+  border-top: none;
+
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 140%;
+
+  @media screen and (min-width: 319px) {
+
+  }
+  @media screen and (min-width: 767px) {
+    padding: 28px 140px 28px 30px;
+
+    font-weight: 300;
+    font-size: 1.142em;
+    line-height: 154%;
+  }
+  @media screen and (min-width: 1365px) { 
+    padding: 40px 200px 40px 43px;
+  }
+}

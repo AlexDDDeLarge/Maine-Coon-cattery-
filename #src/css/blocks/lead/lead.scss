@@ -1,0 +1,17 @@
+.lead {
+  max-width: 89.375%;
+
+  text-align: center;
+  font-weight: 300;
+
+  color: #A07B50;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1.142em;
+    line-height: 150%; 
+  }
+  @media screen and (min-width: 1366px) {
+    font-size: 1.142em;
+    line-height: 162.5%; 
+  }
+}

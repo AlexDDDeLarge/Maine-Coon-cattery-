@@ -1,0 +1,133 @@
+.round-box {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.round-box__text {
+  position: relative;
+
+  margin: 30px 0px;
+  padding-left: 18px; 
+
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 140%;
+
+  color: #FFFFFF;
+
+  @media screen and (min-width: 768px) {
+    margin: 0;
+
+    font-size: 1.1428em;
+    line-height: 143.75%;
+  }
+  @media screen and (min-width: 1366px) {
+    line-height: 156.25%;
+  }
+  &_lt {
+    @media screen and (min-width: 768px) {
+      top: -18px;
+      left: -86%;
+
+      max-width: 190px;
+      padding-left: 0px;
+      padding-right: 32px;
+
+      text-align: right;
+    }
+    @media screen and (min-width: 1366px) { 
+      top: -250px;
+      left: -85%;
+
+      max-width: 270px;
+    }
+  }
+  &_lb {
+    @media screen and (min-width: 768px) { 
+      top: 100px;
+      left: -77%;
+
+      max-width: 172px;
+      padding-left: 0px;
+      padding-right: 32px;
+
+      text-align: right;
+    }
+    @media screen and (min-width: 1366px) { 
+      top: -45px;
+      left: -71%;
+
+      max-width: 230px;
+    }
+  }
+  &_rt {
+    @media screen and (min-width: 768px) { 
+      top: -110px;
+      left: 408px;
+      
+      max-width: 133px;
+      padding-left: 32px;
+    }
+    @media screen and (min-width: 1366px) { 
+      top: -300px;
+      left: 614px;
+
+      max-width: 233px;
+    }
+  }
+  &_rb {
+    @media screen and (min-width: 768px) { 
+      top: -50px;
+      left: 389px;
+
+      max-width: 143px;
+      padding-left: 32px;
+    }
+    @media screen and (min-width: 1366px) { 
+      top: -125px;
+      left: 582px;
+
+      max-width: 200px;
+    }
+  }
+  &::before {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    content: '';
+
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+    background-color: #A07B50;
+    @media screen and (min-width: 768px) {
+      width: 10px;
+      height: 10px;
+    }
+    @media screen and (min-width: 1366px) {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  &_lt::before {
+    @media screen and (min-width: 768px) { 
+      left: auto;
+      right: 0;
+    } 
+  }
+  &_lb::before {
+    @media screen and (min-width: 768px) { 
+    left: auto;
+    right: 0;
+    }
+  }
+  // &_rt::before {
+    
+  // }
+  // &_rb::before {
+    
+  // }
+}

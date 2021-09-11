@@ -1,0 +1,13 @@
+.small-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.285em;
+  line-height: 116.666%;
+  
+  color: #A07B50;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1.571em;
+    line-height: 118.181%;
+  }          
+}

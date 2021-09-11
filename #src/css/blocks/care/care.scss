@@ -1,0 +1,41 @@
+.care {
+  background-image: url(../img/care/cat.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.care__br {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.care__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  @media screen and (min-width: 1366px) { 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.about-card {
+  margin: 30px 15px;
+  @media screen and (min-width: 768px) {
+    margin: 30px 14.71354166666667%;
+  }
+
+  @media screen and (min-width: 1366px) {
+    width: 45.15172413793103%;
+    margin: 20px 1.806034482758621%;
+  }
+  &:last-child {
+    margin-bottom: 60px;
+  }
+}
+

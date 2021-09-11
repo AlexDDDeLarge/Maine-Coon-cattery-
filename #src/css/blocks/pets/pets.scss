@@ -1,0 +1,25 @@
+.pets__container {
+  text-align: center;
+}
+
+.pets__lead {
+  margin: 0 auto 40px;
+  @media screen and (min-width: 768px)  {
+    max-width: 520px;
+  }
+}
+
+.pets__swich-box {
+  margin-bottom: 40px;
+}
+
+.pets__swich-btn {
+  margin-right: 22.5px;
+  margin-left: 22.5px;
+  &:first-child {
+    margin-left: 0px;
+  }
+  &:last-child {
+    margin-right: 0px;
+  }
+}

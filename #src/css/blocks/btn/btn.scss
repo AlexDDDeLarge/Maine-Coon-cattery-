@@ -1,0 +1,14 @@
+.btn {
+  display: inline-block;
+  padding: 15px 18px;
+  border: 0.5px solid #A07B50;
+
+  font-weight: bold;
+  font-size: 0.857em;
+  line-height: 116.666%;
+  @media screen and (min-width: 768px) {
+    font-size: 1em;
+    line-height: 114.285%;
+    padding: 17px 35px;
+  }
+}

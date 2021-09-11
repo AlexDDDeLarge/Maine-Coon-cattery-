@@ -1,0 +1,16 @@
+.swich-btn {
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 1.142em;
+  line-height: 118.75%;
+
+  color: rgba(255, 255, 255, 0.2);
+  @media screen and (min-width: 768px) {
+    font-size: 1.285em;
+    line-height: 116.666%;
+  }
+  &--active {
+    color: #FFFFFF;
+  }
+}

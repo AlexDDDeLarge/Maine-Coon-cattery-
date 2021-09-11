@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px; 
+}
+
+body {
+  background-color: #1F1C1D;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+button {
+  border: 0;
+
+  background-color: inherit;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section {
+  padding-top: 60px;
+  @media screen and (min-width: 768px) {
+    padding-top: 85px;
+  }
+}
+
+@import"normalize.scss";
+@import"blocks/lead/lead.scss";
+@import"blocks/main-title/main-title.scss";
+@import"blocks/slider/slider.scss";
+@import"blocks/middle-title/middle-title.scss";
+@import"blocks/small-title/small-title.scss";
+@import"blocks/logo-ico/logo-ico.scss";
+@import"blocks/btn/btn.scss";
+@import"blocks/btn-control/btn-control.scss";
+@import"blocks/swich-btn/swich-btn.scss";
+@import"blocks/round-box/round-box.scss";
+@import"blocks/card/card.scss";
+@import"blocks/about-card/about-card.scss";
+@import"blocks/biography-card/biography-card.scss";
+@import"blocks/social/social.scss";
+@import"blocks/faq-item/faq-item.scss";
+@import"blocks/revie-slider/revie-slider.scss";
+
+@import"blocks/page-header/page-header.scss";
+@import"blocks/pets/pets.scss";
+@import"blocks/features/features.scss";
+@import"blocks/reason/reason.scss";
+@import"blocks/care/care.scss";
+@import"blocks/team/team.scss";
+@import"blocks/faq/faq.scss";
+@import"blocks/review/review.scss";
+@import"blocks/page-footer/page-footer.scss";
+
+
+

@@ -1,0 +1,24 @@
+.btn-control {
+  background-color: inherit;
+  @media screen and (min-width: 1366px) { 
+    display: none;
+  }
+}
+
+.btn-control__ico {
+  width: 8px;
+  height: 18px;
+  stroke: #A07B50;
+  fill: transparent;
+  @media screen and (min-width: 768px) {
+    width: 12px;
+    height: 30px;
+  }
+  &:hover {
+    stroke: #FFFFFF;
+  }
+}
+
+.btn-control__ico_rotate {
+  transform: rotate(180deg);
+}
